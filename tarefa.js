@@ -48,3 +48,19 @@ console.log(`Lista de tarefas como string: ${tarefas.join(', ')}`);
 
 console.log(`Extrai partes da lista (índices 2 a 4): ${tarefas.slice(2, 5)}`); 
 
+// Etapa 8: Alterando a Lista
+
+console.log(`Antes do splice: ${tarefas.join(', ')}`);
+
+let tarefaQueFoiRemovida = tarefas.splice(4, 1);
+
+console.log(`Depois do splice: ${tarefas.join(', ')}`);
+
+console.log(`Elemento removido: ${tarefaQueFoiRemovida.join(', ')}`);
+
+tarefas[3] = "Encher a garrafa"; 
+
+console.log (`Após substituir: ${tarefas}.`)
+
+// Etapa 9: Concatenando Tarefas
+
