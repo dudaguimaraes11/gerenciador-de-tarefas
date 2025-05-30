@@ -75,3 +75,6 @@ console.log(`Adicionar palavra ao array com map(): ${adicionarPalavra}`);
 
 // Etapa 11: Filtrando Tarefas
 
+let tarefasFiltradas = tarefas.filter(tarefas => tarefas.length > 15);
+
+console.log("Lista de tarefas filtrada (músicas com mais de 15 letras):", tarefasFiltradas);
