@@ -38,6 +38,10 @@ console.log("Primeira tarefa removida:", tarefas);
 
 // Etapa 5: Verificando se uma Tarefa Existe
 
-console.log(`A lista de tarefas inclui ler um livro? ${tarefas.includes("Ler um livro")}`);
+console.log(`A lista de tarefas inclui Ir à academia? ${tarefas.includes("Ir à academia")}`);
 
-console.log(`A lista de tarefas inclui limpar o quarto? ${tarefas.includes("Limpar o quarto")}`);
+// Etapa 6: Transformando a Lista em String
+
+console.log(`Lista de tarefas como string: ${tarefas.join(', ')}`);
+
+// 
