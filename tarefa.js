@@ -67,4 +67,11 @@ let tarefas2 = ['Cuidar da irmã', 'Assistir um filme'];
 
 console.log(`Playlist combinada: ${tarefas.concat(tarefas2)}`);
 
-// 
+// Etapa 10: Transformando as Tarefas
+
+let adicionarPalavra = tarefas.map(tarefas => "Fazer:" + tarefas)
+
+console.log(`Adicionar palavra ao array com map(): ${adicionarPalavra}`);
+
+// Etapa 11: Filtrando Tarefas
+
