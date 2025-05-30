@@ -63,4 +63,8 @@ tarefas[3] = "Encher a garrafa";
 console.log (`Após substituir: ${tarefas}.`)
 
 // Etapa 9: Concatenando Tarefas
+let tarefas2 = ['Cuidar da irmã', 'Assistir um filme'];
 
+console.log(`Playlist combinada: ${tarefas.concat(tarefas2)}`);
+
+// 
