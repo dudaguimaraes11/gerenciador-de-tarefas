@@ -28,3 +28,10 @@ tarefas.unshift('Regar a planta');
 
 console.log("Depois do unshift:", tarefas);
 
+// Etapa 4: Removendo a Primeira Tarefa
+
+let primeiraTarefaRemovida = tarefas.shift();
+
+console.log("Depois do shift:", tarefas);
+
+console.log("Primeira tarefa removida:", tarefas);
