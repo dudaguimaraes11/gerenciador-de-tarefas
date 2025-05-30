@@ -86,4 +86,8 @@ let tarefasOrdenadas = tarefas.sort();
 
 console.log("Tarefas ordenadas:", tarefasOrdenadas);
 
-// 
+// Etapa 13: Invertendo a Ordem das Tarefas
+
+let tarefasInvertidas = tarefas.reverse();
+
+console.log("Lista de tarefas invertida:", tarefasInvertidas);
