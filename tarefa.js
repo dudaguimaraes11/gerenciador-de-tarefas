@@ -35,3 +35,9 @@ let primeiraTarefaRemovida = tarefas.shift();
 console.log("Depois do shift:", tarefas);
 
 console.log("Primeira tarefa removida:", tarefas);
+
+// Etapa 5: Verificando se uma Tarefa Existe
+
+console.log(`A lista de tarefas inclui ler um livro? ${tarefas.includes("Ler um livro")}`);
+
+console.log(`A lista de tarefas inclui limpar o quarto? ${tarefas.includes("Limpar o quarto")}`);
