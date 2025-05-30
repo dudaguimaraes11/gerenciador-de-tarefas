@@ -44,4 +44,7 @@ console.log(`A lista de tarefas inclui Ir à academia? ${tarefas.includes("Ir à
 
 console.log(`Lista de tarefas como string: ${tarefas.join(', ')}`);
 
-// 
+// Etapa 7: Extraindo uma Parte da Lista
+
+console.log(`Extrai partes da lista (índices 2 a 4): ${tarefas.slice(2, 5)}`); 
+
