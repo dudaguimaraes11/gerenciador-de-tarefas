@@ -34,7 +34,7 @@ let primeiraTarefaRemovida = tarefas.shift();
 
 console.log("Depois do shift:", tarefas);
 
-console.log("Primeira tarefa removida:", tarefas);
+console.log("Primeira tarefa removida:", primeiraTarefaRemovida);
 
 // Etapa 5: Verificando se uma Tarefa Existe
 
