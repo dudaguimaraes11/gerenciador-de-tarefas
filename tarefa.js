@@ -9,15 +9,22 @@ let tarefas = ['Estudar JavaScript',
       'Estudar para concurso', 
       'Organizar o computador'];
 
-// Adiciona dois novos elementos 
+// Etapa 1: Adicionando Novas Tarefas
 
 tarefas.push (`Ir à academia`, `Revisar matemática`);
 console.log (`Depois do push: ${tarefas}.`); 
 
-// Remove o último elemento
+// Etapa 2: Removendo a Última Tarefa
 
 let tarefaRemovida = tarefas.pop();
 
 console.log("Depois do pop:", tarefas);
 
 console.log("Tarefa removida:", tarefaRemovida); 
+
+// Etapa 3: Adicionando uma Tarefa no Início
+
+tarefas.unshift('Regar a planta');
+
+console.log("Depois do unshift:", tarefas);
+
