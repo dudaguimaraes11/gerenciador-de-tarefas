@@ -78,3 +78,12 @@ console.log(`Adicionar palavra ao array com map(): ${adicionarPalavra}`);
 let tarefasFiltradas = tarefas.filter(tarefas => tarefas.length > 15);
 
 console.log("Lista de tarefas filtrada (músicas com mais de 15 letras):", tarefasFiltradas);
+
+
+// Etapa 12: Ordenando as Tarefas
+
+let tarefasOrdenadas = tarefas.sort();
+
+console.log("Tarefas ordenadas:", tarefasOrdenadas);
+
+// 
